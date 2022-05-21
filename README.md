@@ -56,7 +56,7 @@ This will output their ID and name to the terminal:
 
 If you add a database filename that list will be used to populate a detailed `calendars` table:
 
-    google-calendar-to-sqlite calendars calendars.db
+    google-calendar-to-sqlite calendars calendar.db
 
 Events in that same database will have foreign keys back to the calendar they belong to.
 
